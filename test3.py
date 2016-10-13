@@ -4,7 +4,7 @@
 
 from math import sqrt
 
-for i in range(1e4,0,-1):
+for i in range(10000,0,-1):
 	x = sqrt(i+100)
 	y = sqrt(i+268)
 	if x == int(x) and y == int(y):
